@@ -1,0 +1,192 @@
+[
+ {
+  "req_id": "REQ-01",
+  "role": "Backend Engineer",
+  "skills": [
+   "python",
+   "java",
+   "sql",
+   "rest apis",
+   "microservices",
+   "postgresql"
+  ],
+  "headcount": 9,
+  "min_assessment": 75,
+  "max_notice_days": 60,
+  "max_expected_ctc_lpa": 26,
+  "points_note": "points scale with skill match, assessment margin over the bar, recruiter notes, notice period and salary headroom; below the bar earns nothing",
+  "filled": 9,
+  "remaining": 0
+ },
+ {
+  "req_id": "REQ-02",
+  "role": "Frontend Engineer",
+  "skills": [
+   "javascript",
+   "typescript",
+   "react",
+   "css",
+   "html",
+   "graphql"
+  ],
+  "headcount": 16,
+  "min_assessment": 75,
+  "max_notice_days": 60,
+  "max_expected_ctc_lpa": 26,
+  "points_note": "points scale with skill match, assessment margin over the bar, recruiter notes, notice period and salary headroom; below the bar earns nothing",
+  "filled": 16,
+  "remaining": 0
+ },
+ {
+  "req_id": "REQ-03",
+  "role": "Full Stack Engineer",
+  "skills": [
+   "javascript",
+   "node.js",
+   "react",
+   "sql",
+   "rest apis",
+   "docker"
+  ],
+  "headcount": 11,
+  "min_assessment": 65,
+  "max_notice_days": 60,
+  "max_expected_ctc_lpa": 35,
+  "points_note": "points scale with skill match, assessment margin over the bar, recruiter notes, notice period and salary headroom; below the bar earns nothing",
+  "filled": 11,
+  "remaining": 0
+ },
+ {
+  "req_id": "REQ-04",
+  "role": "Data Scientist",
+  "skills": [
+   "python",
+   "statistics",
+   "scikit-learn",
+   "sql",
+   "pandas",
+   "a/b testing"
+  ],
+  "headcount": 14,
+  "min_assessment": 65,
+  "max_notice_days": 60,
+  "max_expected_ctc_lpa": 26,
+  "points_note": "points scale with skill match, assessment margin over the bar, recruiter notes, notice period and salary headroom; below the bar earns nothing",
+  "filled": 14,
+  "remaining": 0
+ },
+ {
+  "req_id": "REQ-05",
+  "role": "ML Engineer",
+  "skills": [
+   "python",
+   "pytorch",
+   "mlops",
+   "docker",
+   "kubernetes",
+   "scikit-learn"
+  ],
+  "headcount": 10,
+  "min_assessment": 70,
+  "max_notice_days": 60,
+  "max_expected_ctc_lpa": 26,
+  "points_note": "points scale with skill match, assessment margin over the bar, recruiter notes, notice period and salary headroom; below the bar earns nothing",
+  "filled": 10,
+  "remaining": 0
+ },
+ {
+  "req_id": "REQ-06",
+  "role": "Data Engineer",
+  "skills": [
+   "python",
+   "sql",
+   "spark",
+   "airflow",
+   "kafka",
+   "aws"
+  ],
+  "headcount": 10,
+  "min_assessment": 75,
+  "max_notice_days": 60,
+  "max_expected_ctc_lpa": 26,
+  "points_note": "points scale with skill match, assessment margin over the bar, recruiter notes, notice period and salary headroom; below the bar earns nothing",
+  "filled": 10,
+  "remaining": 0
+ },
+ {
+  "req_id": "REQ-07",
+  "role": "DevOps / SRE",
+  "skills": [
+   "linux",
+   "kubernetes",
+   "terraform",
+   "aws",
+   "ci/cd",
+   "docker"
+  ],
+  "headcount": 11,
+  "min_assessment": 65,
+  "max_notice_days": 60,
+  "max_expected_ctc_lpa": 35,
+  "points_note": "points scale with skill match, assessment margin over the bar, recruiter notes, notice period and salary headroom; below the bar earns nothing",
+  "filled": 11,
+  "remaining": 0
+ },
+ {
+  "req_id": "REQ-08",
+  "role": "Mobile Engineer",
+  "skills": [
+   "kotlin",
+   "swift",
+   "android",
+   "flutter",
+   "rest apis",
+   "git"
+  ],
+  "headcount": 11,
+  "min_assessment": 65,
+  "max_notice_days": 60,
+  "max_expected_ctc_lpa": 22,
+  "points_note": "points scale with skill match, assessment margin over the bar, recruiter notes, notice period and salary headroom; below the bar earns nothing",
+  "filled": 11,
+  "remaining": 0
+ },
+ {
+  "req_id": "REQ-09",
+  "role": "QA Automation Engineer",
+  "skills": [
+   "selenium",
+   "python",
+   "java",
+   "cypress",
+   "ci/cd",
+   "sql"
+  ],
+  "headcount": 14,
+  "min_assessment": 70,
+  "max_notice_days": 60,
+  "max_expected_ctc_lpa": 26,
+  "points_note": "points scale with skill match, assessment margin over the bar, recruiter notes, notice period and salary headroom; below the bar earns nothing",
+  "filled": 14,
+  "remaining": 0
+ },
+ {
+  "req_id": "REQ-10",
+  "role": "Product Analyst",
+  "skills": [
+   "sql",
+   "excel",
+   "tableau",
+   "statistics",
+   "a/b testing",
+   "python"
+  ],
+  "headcount": 10,
+  "min_assessment": 75,
+  "max_notice_days": 60,
+  "max_expected_ctc_lpa": 30,
+  "points_note": "points scale with skill match, assessment margin over the bar, recruiter notes, notice period and salary headroom; below the bar earns nothing",
+  "filled": 10,
+  "remaining": 0
+ }
+]

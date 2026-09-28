@@ -1,0 +1,328 @@
+11:18:34 agent start: penalty=0.05 max_spend=25000 pages/role=120
+11:18:42 unexpected error:
+Traceback (most recent call last):
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 476, in main
+    agent.run()
+    ~~~~~~~~~^^
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 436, in run
+    phase = self.phase()
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 173, in phase
+    return pick(self.arena.ledger(), "phase", default="unknown")
+                ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/arena_client.py", line 85, in ledger
+    def ledger(self):                       return self._call("/ledger")
+                                                   ~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 77, in _call
+    result = super()._call(path, method, body, tries)
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/arena_client.py", line 70, in _call
+    raise RuntimeError(f"gave up on {path}")
+RuntimeError: gave up on /ledger
+
+11:18:55 unexpected error:
+Traceback (most recent call last):
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 476, in main
+    agent.run()
+    ~~~~~~~~~^^
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 436, in run
+    phase = self.phase()
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 173, in phase
+    return pick(self.arena.ledger(), "phase", default="unknown")
+                ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/arena_client.py", line 85, in ledger
+    def ledger(self):                       return self._call("/ledger")
+                                                   ~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 77, in _call
+    result = super()._call(path, method, body, tries)
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/arena_client.py", line 70, in _call
+    raise RuntimeError(f"gave up on {path}")
+RuntimeError: gave up on /ledger
+
+11:19:08 unexpected error:
+Traceback (most recent call last):
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 476, in main
+    agent.run()
+    ~~~~~~~~~^^
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 436, in run
+    phase = self.phase()
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 173, in phase
+    return pick(self.arena.ledger(), "phase", default="unknown")
+                ~~~~~~~~~~~~~~~~~^^
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/arena_client.py", line 85, in ledger
+    def ledger(self):                       return self._call("/ledger")
+                                                   ~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/agent.py", line 77, in _call
+    result = super()._call(path, method, body, tries)
+  File "/Users/rimshachaudhary/Desktop/IITD/agent/arena_client.py", line 70, in _call
+    raise RuntimeError(f"gave up on {path}")
+RuntimeError: gave up on /ledger
+
+11:19:22 agent start: penalty=0.05 max_spend=25000 pages/role=120
+11:19:22 resumed state: 0 profiles, 0 signed
+11:19:22 req REQ-01 'Backend Engineer' x9 pts=100 skills=['java', 'microservices', 'postgresql', 'python', 'rest apis', 'sql'] min_assess=75 max_notice=60 max_ctc=2600000
+11:19:22 req REQ-02 'Frontend Engineer' x16 pts=100 skills=['css', 'graphql', 'html', 'javascript', 'react', 'typescript'] min_assess=75 max_notice=60 max_ctc=2600000
+11:19:22 req REQ-03 'Full Stack Engineer' x11 pts=100 skills=['docker', 'javascript', 'nodejs', 'react', 'rest apis', 'sql'] min_assess=65 max_notice=60 max_ctc=3500000
+11:19:22 req REQ-04 'Data Scientist' x14 pts=100 skills=['a/b testing', 'pandas', 'python', 'scikit-learn', 'sql', 'statistics'] min_assess=65 max_notice=60 max_ctc=2600000
+11:19:22 req REQ-05 'ML Engineer' x10 pts=100 skills=['docker', 'kubernetes', 'mlops', 'python', 'pytorch', 'scikit-learn'] min_assess=70 max_notice=60 max_ctc=2600000
+11:19:22 req REQ-06 'Data Engineer' x10 pts=100 skills=['airflow', 'aws', 'kafka', 'python', 'spark', 'sql'] min_assess=75 max_notice=60 max_ctc=2600000
+11:19:22 req REQ-07 'DevOps / SRE' x11 pts=100 skills=['aws', 'ci/cd', 'docker', 'kubernetes', 'linux', 'terraform'] min_assess=65 max_notice=60 max_ctc=3500000
+11:19:22 req REQ-08 'Mobile Engineer' x11 pts=100 skills=['android', 'flutter', 'git', 'kotlin', 'rest apis', 'swift'] min_assess=65 max_notice=60 max_ctc=2200000
+11:19:22 req REQ-09 'QA Automation Engineer' x14 pts=100 skills=['ci/cd', 'cypress', 'java', 'python', 'selenium', 'sql'] min_assess=70 max_notice=60 max_ctc=2600000
+11:19:22 req REQ-10 'Product Analyst' x10 pts=100 skills=['a/b testing', 'excel', 'python', 'sql', 'statistics', 'tableau'] min_assess=75 max_notice=60 max_ctc=3000000
+11:19:37 sweep 'Backend Engineer': 120 pages, 12000 summaries total
+11:19:53 sweep 'Data Engineer': 120 pages, 24000 summaries total
+11:20:10 sweep 'Data Scientist': 120 pages, 36000 summaries total
+11:20:27 sweep 'DevOps / SRE': 120 pages, 48000 summaries total
+11:20:43 sweep 'Frontend Engineer': 120 pages, 60000 summaries total
+11:20:58 sweep 'Full Stack Engineer': 120 pages, 72000 summaries total
+11:21:14 sweep 'ML Engineer': 120 pages, 84000 summaries total
+11:21:29 sweep 'Mobile Engineer': 120 pages, 96000 summaries total
+11:21:45 sweep 'Product Analyst': 120 pages, 108000 summaries total
+11:22:00 sweep 'QA Automation Engineer': 120 pages, 120000 summaries total
+11:22:01 bought 108 profiles in 3 batches
+11:22:02 bought 192 profiles in 4 batches
+11:22:03 bought 132 profiles in 3 batches
+11:22:04 bought 168 profiles in 4 batches
+11:22:05 bought 120 profiles in 3 batches
+11:22:06 bought 120 profiles in 3 batches
+11:22:06 bought 132 profiles in 3 batches
+11:22:07 bought 132 profiles in 3 batches
+11:22:08 bought 168 profiles in 4 batches
+11:22:09 bought 120 profiles in 3 batches
+11:22:19 scored 73 distinct recruiter notes with the model
+11:22:25 calibration: assessed 40; model: verified ~ 2.61*self -165.2 (std 14.0, n=40)
+11:22:25 bought 108 profiles in 3 batches
+11:22:26 bought 192 profiles in 4 batches
+11:22:27 bought 132 profiles in 3 batches
+11:22:28 bought 168 profiles in 4 batches
+11:22:29 bought 120 profiles in 3 batches
+11:22:30 bought 120 profiles in 3 batches
+11:22:31 bought 132 profiles in 3 batches
+11:22:32 bought 132 profiles in 3 batches
+11:22:33 bought 168 profiles in 4 batches
+11:22:33 bought 120 profiles in 3 batches
+11:22:35 bought 144 profiles in 3 batches
+11:22:36 bought 256 profiles in 6 batches
+11:22:37 bought 224 profiles in 5 batches
+11:22:38 bought 160 profiles in 4 batches
+11:22:39 bought 160 profiles in 4 batches
+11:22:40 bought 176 profiles in 4 batches
+11:22:41 bought 176 profiles in 4 batches
+11:22:42 bought 224 profiles in 5 batches
+11:22:43 bought 160 profiles in 4 batches
+11:22:47 scored 27 distinct recruiter notes with the model
+11:23:03 assessed 120 flagged top picks; model: verified ~ 2.48*self -154.3 (std 13.2, n=160)
+11:23:04 plan REQ-01: 18 eligible for 9 slots
+11:23:04 plan REQ-02: 39 eligible for 16 slots
+11:23:04 plan REQ-03: 30 eligible for 11 slots
+11:23:04 plan REQ-04: 42 eligible for 14 slots
+11:23:04 plan REQ-05: 30 eligible for 10 slots
+11:23:04 plan REQ-06: 29 eligible for 10 slots
+11:23:04 plan REQ-07: 40 eligible for 11 slots
+11:23:05 plan REQ-08: 41 eligible for 11 slots
+11:23:05 plan REQ-09: 33 eligible for 14 slots
+11:23:05 plan REQ-10: 14 eligible for 10 slots
+11:23:05 recon complete; waiting for the market to open
+11:23:49 agent start: penalty=0.05 max_spend=25000 pages/role=120
+11:23:49 resumed state: 4464 profiles, 0 signed
+11:23:49 req REQ-01 'Backend Engineer' x9 pts=100 skills=['java', 'microservices', 'postgresql', 'python', 'rest apis', 'sql'] min_assess=75 max_notice=60 max_ctc=2600000
+11:23:49 req REQ-02 'Frontend Engineer' x16 pts=100 skills=['css', 'graphql', 'html', 'javascript', 'react', 'typescript'] min_assess=75 max_notice=60 max_ctc=2600000
+11:23:49 req REQ-03 'Full Stack Engineer' x11 pts=100 skills=['docker', 'javascript', 'nodejs', 'react', 'rest apis', 'sql'] min_assess=65 max_notice=60 max_ctc=3500000
+11:23:49 req REQ-04 'Data Scientist' x14 pts=100 skills=['a/b testing', 'pandas', 'python', 'scikit-learn', 'sql', 'statistics'] min_assess=65 max_notice=60 max_ctc=2600000
+11:23:49 req REQ-05 'ML Engineer' x10 pts=100 skills=['docker', 'kubernetes', 'mlops', 'python', 'pytorch', 'scikit-learn'] min_assess=70 max_notice=60 max_ctc=2600000
+11:23:49 req REQ-06 'Data Engineer' x10 pts=100 skills=['airflow', 'aws', 'kafka', 'python', 'spark', 'sql'] min_assess=75 max_notice=60 max_ctc=2600000
+11:23:49 req REQ-07 'DevOps / SRE' x11 pts=100 skills=['aws', 'ci/cd', 'docker', 'kubernetes', 'linux', 'terraform'] min_assess=65 max_notice=60 max_ctc=3500000
+11:23:49 req REQ-08 'Mobile Engineer' x11 pts=100 skills=['android', 'flutter', 'git', 'kotlin', 'rest apis', 'swift'] min_assess=65 max_notice=60 max_ctc=2200000
+11:23:49 req REQ-09 'QA Automation Engineer' x14 pts=100 skills=['ci/cd', 'cypress', 'java', 'python', 'selenium', 'sql'] min_assess=70 max_notice=60 max_ctc=2600000
+11:23:49 req REQ-10 'Product Analyst' x10 pts=100 skills=['a/b testing', 'excel', 'python', 'sql', 'statistics', 'tableau'] min_assess=75 max_notice=60 max_ctc=3000000
+11:23:49 sweep 'Backend Engineer': 120 pages, 120000 summaries total
+11:23:50 sweep 'Data Engineer': 120 pages, 120000 summaries total
+11:23:50 sweep 'Data Scientist': 120 pages, 120000 summaries total
+11:23:50 sweep 'DevOps / SRE': 120 pages, 120000 summaries total
+11:23:50 sweep 'Frontend Engineer': 120 pages, 120000 summaries total
+11:23:51 sweep 'Full Stack Engineer': 120 pages, 120000 summaries total
+11:23:51 sweep 'ML Engineer': 120 pages, 120000 summaries total
+11:23:51 sweep 'Mobile Engineer': 120 pages, 120000 summaries total
+11:23:51 sweep 'Product Analyst': 120 pages, 120000 summaries total
+11:23:52 sweep 'QA Automation Engineer': 120 pages, 120000 summaries total
+11:24:04 bought 176 profiles in 4 batches
+11:24:09 assessed 16 flagged top picks; model: verified ~ 2.47*self -152.4 (std 12.7, n=176)
+11:24:10 plan REQ-01: 20 eligible for 9 slots
+11:24:10 plan REQ-02: 48 eligible for 16 slots
+11:24:10 plan REQ-03: 51 eligible for 11 slots
+11:24:10 plan REQ-04: 48 eligible for 14 slots
+11:24:10 plan REQ-05: 33 eligible for 10 slots
+11:24:10 plan REQ-06: 31 eligible for 10 slots
+11:24:10 plan REQ-07: 46 eligible for 11 slots
+11:24:10 plan REQ-08: 45 eligible for 11 slots
+11:24:11 plan REQ-09: 44 eligible for 14 slots
+11:24:11 plan REQ-10: 16 eligible for 10 slots
+11:24:11 recon complete; waiting for the market to open
+11:42:20 SIGNED NG-5658278 -> REQ-05
+11:42:20 SIGNED NG-5796880 -> REQ-07
+11:42:20 SIGNED NG-5786531 -> REQ-03
+11:42:20 SIGNED NG-2962800 -> REQ-07
+11:42:20 SIGNED NG-4708900 -> REQ-07
+11:42:20 SIGNED NG-5136727 -> REQ-07
+11:42:20 SIGNED NG-4530170 -> REQ-01
+11:42:20 SIGNED NG-4165228 -> REQ-01
+11:42:20 SIGNED NG-5264133 -> REQ-08
+11:42:20 SIGNED NG-4870760 -> REQ-07
+11:42:20 SIGNED NG-4303250 -> REQ-08
+11:42:20 SIGNED NG-4206596 -> REQ-03
+11:42:20 SIGNED NG-3744006 -> REQ-09
+11:42:20 SIGNED NG-3348246 -> REQ-07
+11:42:20 SIGNED NG-3347671 -> REQ-04
+11:42:20 SIGNED NG-3676271 -> REQ-06
+11:42:20 SIGNED NG-3862226 -> REQ-10
+11:42:20 SIGNED NG-4611723 -> REQ-03
+11:42:20 SIGNED NG-5067193 -> REQ-07
+11:42:20 SIGNED NG-4706335 -> REQ-03
+11:42:20 SIGNED NG-3419655 -> REQ-04
+11:42:20 SIGNED NG-2900569 -> REQ-09
+11:42:20 SIGNED NG-5620201 -> REQ-03
+11:42:20 SIGNED NG-5201460 -> REQ-06
+11:42:20 SIGNED NG-3991181 -> REQ-04
+11:42:20 SIGNED NG-5515371 -> REQ-07
+11:42:20 SIGNED NG-5416248 -> REQ-08
+11:42:20 SIGNED NG-5135901 -> REQ-04
+11:42:20 SIGNED NG-4819608 -> REQ-10
+11:42:20 SIGNED NG-4243579 -> REQ-03
+11:42:20 SIGNED NG-4165038 -> REQ-04
+11:42:20 SIGNED NG-3831978 -> REQ-06
+11:42:20 SIGNED NG-2920985 -> REQ-09
+11:42:20 SIGNED NG-5107784 -> REQ-09
+11:42:20 SIGNED NG-5078508 -> REQ-03
+11:42:20 SIGNED NG-5100537 -> REQ-04
+11:42:20 SIGNED NG-5798789 -> REQ-10
+11:42:20 SIGNED NG-5382800 -> REQ-03
+11:42:20 SIGNED NG-4663555 -> REQ-03
+11:42:20 SIGNED NG-4296989 -> REQ-05
+11:42:20 SIGNED NG-3987803 -> REQ-07
+11:42:20 SIGNED NG-3022135 -> REQ-02
+11:42:20 SIGNED NG-2983450 -> REQ-08
+11:42:20 SIGNED NG-5090880 -> REQ-03
+11:42:20 SIGNED NG-5031236 -> REQ-04
+11:42:20 SIGNED NG-3173699 -> REQ-03
+11:42:20 SIGNED NG-3329022 -> REQ-08
+11:42:20 SIGNED NG-3550910 -> REQ-01
+11:42:20 SIGNED NG-5178459 -> REQ-07
+11:42:20 SIGNED NG-5443135 -> REQ-05
+11:42:20 SIGNED NG-5225138 -> REQ-08
+11:42:20 SIGNED NG-5125286 -> REQ-02
+11:42:20 SIGNED NG-4107454 -> REQ-07
+11:42:20 SIGNED NG-3841654 -> REQ-04
+11:42:20 SIGNED NG-3766286 -> REQ-05
+11:42:20 SIGNED NG-3354930 -> REQ-08
+11:42:20 SIGNED NG-2928165 -> REQ-08
+11:42:20 SIGNED NG-4778935 -> REQ-02
+11:42:20 SIGNED NG-3849211 -> REQ-09
+11:42:20 SIGNED NG-5851745 -> REQ-05
+11:42:20 SIGNED NG-2520767 -> REQ-02
+11:42:20 SIGNED NG-4102627 -> REQ-01
+11:42:20 SIGNED NG-2888404 -> REQ-02
+11:42:20 SIGNED NG-5342129 -> REQ-04
+11:42:20 SIGNED NG-3844591 -> REQ-10
+11:42:20 SIGNED NG-3190870 -> REQ-09
+11:42:20 SIGNED NG-5557195 -> REQ-06
+11:42:20 SIGNED NG-4627355 -> REQ-01
+11:42:20 SIGNED NG-4024796 -> REQ-05
+11:42:20 SIGNED NG-3222630 -> REQ-04
+11:42:20 SIGNED NG-5088870 -> REQ-10
+11:42:20 SIGNED NG-4096599 -> REQ-05
+11:42:20 SIGNED NG-5404950 -> REQ-04
+11:42:20 SIGNED NG-5372098 -> REQ-05
+11:42:20 SIGNED NG-4910370 -> REQ-06
+11:42:20 SIGNED NG-4838354 -> REQ-09
+11:42:20 SIGNED NG-3508118 -> REQ-04
+11:42:20 SIGNED NG-3127327 -> REQ-02
+11:42:20 SIGNED NG-2865253 -> REQ-09
+11:42:20 SIGNED NG-3793042 -> REQ-05
+11:42:20 SIGNED NG-3736461 -> REQ-05
+11:42:20 SIGNED NG-4387776 -> REQ-06
+11:42:20 SIGNED NG-4012146 -> REQ-06
+11:42:20 SIGNED NG-4835433 -> REQ-04
+11:42:20 SIGNED NG-4038187 -> REQ-02
+11:42:20 SIGNED NG-5539074 -> REQ-10
+11:42:20 SIGNED NG-5430992 -> REQ-01
+11:42:20 SIGNED NG-5056240 -> REQ-06
+11:42:20 SIGNED NG-2550687 -> REQ-09
+11:42:20 SIGNED NG-5042907 -> REQ-09
+11:42:20 SIGNED NG-4143366 -> REQ-04
+11:42:20 SIGNED NG-5984778 -> REQ-01
+11:42:20 SIGNED NG-4643747 -> REQ-10
+11:42:20 SIGNED NG-3128302 -> REQ-08
+11:42:20 SIGNED NG-4717661 -> REQ-09
+11:42:20 SIGNED NG-3019611 -> REQ-02
+11:42:20 SIGNED NG-5846128 -> REQ-09
+11:42:20 SIGNED NG-2954579 -> REQ-02
+11:42:20 SIGNED NG-2906859 -> REQ-08
+11:42:20 SIGNED NG-5314145 -> REQ-09
+11:42:20 SIGNED NG-5268634 -> REQ-10
+11:42:20 SIGNED NG-3929004 -> REQ-10
+11:42:20 SIGNED NG-3115028 -> REQ-08
+11:42:20 SIGNED NG-2994159 -> REQ-02
+11:42:20 SIGNED NG-5174287 -> REQ-01
+11:42:20 SIGNED NG-5754111 -> REQ-06
+11:42:20 SIGNED NG-3221048 -> REQ-02
+11:42:20 SIGNED NG-5051935 -> REQ-02
+11:42:20 SIGNED NG-4744985 -> REQ-01
+11:42:20 SIGNED NG-2309249 -> REQ-02
+11:42:20 SIGNED NG-4105971 -> REQ-06
+11:42:20 SIGNED NG-2647057 -> REQ-09
+11:42:20 SIGNED NG-4686319 -> REQ-02
+11:42:20 SIGNED NG-5205960 -> REQ-02
+11:42:20 SIGNED NG-5418991 -> REQ-02
+11:42:20 SIGNED NG-5567791 -> REQ-10
+11:42:21 ledger: credits_used=13334 points=0 score=-666.7 signed=116
+11:47:26 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+11:49:43 arena closed - final ledger {'team': 'confused_devs', 'credits_used': 13334, 'credits_remaining': 36666, 'calls': 1609, 'signed': 116, 'points': 2494, 'score': 1827.3, 'points_as_of': 1790576383.7, 'phase': 'closed'}
+12:01:25 agent start: penalty=0.05 max_spend=25000 pages/role=120
+12:01:25 resumed state: 4640 profiles, 116 signed
+12:01:27 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:06:29 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:11:33 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:16:35 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:21:39 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:26:42 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:31:44 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:36:47 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:41:50 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:46:52 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:51:55 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+12:56:59 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:02:01 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:07:04 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:12:07 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:17:09 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:22:12 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:27:14 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:32:17 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:37:19 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:42:21 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:47:25 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:52:28 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+13:57:31 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:02:34 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:07:37 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:12:40 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:17:43 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:22:46 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:27:49 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:32:53 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:37:56 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:43:00 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:48:03 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:53:06 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+14:58:09 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:03:13 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:08:16 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:13:19 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:18:21 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:23:24 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:28:28 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:33:32 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:38:27 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:43:32 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:48:37 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:53:43 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
+15:58:45 ledger: credits_used=13334 points=2494 score=1827.3 signed=116
